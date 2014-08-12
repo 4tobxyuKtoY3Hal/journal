@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="interval_updata_tame">86400</integer>
+    <string name="url_server">http://promo-z.ru/android</string>
+    <string name="url_json">/journal.php</string>
+</resources>

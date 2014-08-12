@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <com.example.journal.view.CustomViewPager
+            android:id="@+id/activityPages_ViewPager_pages"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+    />
+
+    <View
+            android:background="#c0c0c0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <Gallery
+                android:id="@+id/activityPages_Gallery_tumb"
+                android:spacing="16dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_download">#02b73a</color>
+    <color name="button_free">#2b73ae</color>
+    <color name="button_read">#777</color>
+</resources>
