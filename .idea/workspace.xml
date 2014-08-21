@@ -49,6 +49,7 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Unnamed-1" />
   </component>
   <component name="ChangeListManager">
@@ -119,7 +120,19 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/journal/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="0" selection-start="5298" selection-end="5298" vertical-scroll-proportion="0.33333334" vertical-offset="1963" max-vertical-offset="5321">
+            <state line="254" column="97" selection-start="9622" selection-end="9622" vertical-scroll-proportion="0.72680414" vertical-offset="3526" max-vertical-offset="5491">
+              <folding>
+                <element signature="e#7000#8923#0" expanded="true" />
+                <element signature="e#8904#8905#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/journal/manager/BaseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="5" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
@@ -127,13 +140,13 @@
       </file>
       <file leaf-file-name="activity_start.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_start.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="54" selection-start="1445" selection-end="1447" vertical-scroll-proportion="-7.38" vertical-offset="226" max-vertical-offset="748">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="54" selection-start="1445" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="748">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -143,18 +156,6 @@
             <state line="3" column="12" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/header.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="196" selection-end="196" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -169,20 +170,20 @@
       </file>
       <file leaf-file-name="item_assortiment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/item_assortiment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="53" column="37" selection-start="2264" selection-end="2271" vertical-scroll-proportion="-2.78" vertical-offset="762" max-vertical-offset="1343">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PagesActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/journal/PagesActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="4420">
+            <state line="48" column="31" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0" vertical-offset="661" max-vertical-offset="4131">
               <folding />
             </state>
           </provider>
@@ -191,7 +192,7 @@
       <file leaf-file-name="LoadService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/journal/service/LoadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="16" selection-start="5347" selection-end="5347" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="3026">
+            <state line="157" column="30" selection-start="5486" selection-end="5486" vertical-scroll-proportion="0.0" vertical-offset="2306" max-vertical-offset="3026">
               <folding>
                 <element signature="e#5179#5214#0" expanded="true" />
                 <element signature="e#5233#5266#0" expanded="true" />
@@ -200,10 +201,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ImageManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/journal/manager/ImageManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="10" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="4182" max-vertical-offset="5015">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TitleActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/journal/TitleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="54" selection-start="1834" selection-end="1847" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2159">
+            <state line="65" column="0" selection-start="1856" selection-end="1995" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -260,16 +270,16 @@
         <option value="$PROJECT_DIR$/src/com/example/journal/view/ScaleImageView.java" />
         <option value="$PROJECT_DIR$/src/com/example/journal/TitleActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/journal/manager/ImageManager.java" />
-        <option value="$PROJECT_DIR$/src/com/example/journal/PagesActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/journal/service/LoadService.java" />
         <option value="$PROJECT_DIR$/src/com/example/journal/StartActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/journal/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_start.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/header.xml" />
         <option value="$PROJECT_DIR$/res/values/const.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/journal/PagesActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/journal/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -309,7 +319,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,11 +351,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,11 +369,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="journal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,6 +475,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,7 +486,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/DISK_D/_WORK/adt-bundle-windows-x86_64-20131030/sdk/extras/android/support/v4/android-support-v4.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -454,6 +546,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -479,19 +584,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -612,7 +704,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -626,15 +718,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275401" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38203752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="799" y="327" width="1027" height="629" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32707775" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38203752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="799" y="327" width="1027" height="629" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328877" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23170732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32707775" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -668,23 +760,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/layout/header.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="510">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/TitleActivity.java">
@@ -697,7 +789,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="237" column="14" selection-start="9018" selection-end="9018" vertical-scroll-proportion="0.0" vertical-offset="4029" max-vertical-offset="5525">
-          <folding />
+          <folding>
+            <element signature="e#7000#8923#0" expanded="true" />
+            <element signature="e#8904#8905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +806,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="200" column="60" selection-start="7561" selection-end="7561" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="5712">
-          <folding />
+          <folding>
+            <element signature="e#7000#8923#0" expanded="true" />
+            <element signature="e#8904#8905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -764,19 +862,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="58" selection-start="300" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="306" />
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/item_assortiment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="850" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/AssortmentActivity.java">
@@ -790,11 +888,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/AssortmentActivity.java">
@@ -832,29 +930,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_title.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="47" selection-start="306" selection-end="306" vertical-scroll-proportion="0.255" vertical-offset="0" max-vertical-offset="400" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/item_title.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/item_title.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="47" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="510" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/item_page.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/item_page.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="38" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="425">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/view/ScrollImageView.java">
@@ -863,23 +961,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_pages.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="51" selection-start="259" selection-end="259" vertical-scroll-proportion="0.17598344" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/item_page_big.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/item_page_big.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="50" selection-start="433" selection-end="433" vertical-scroll-proportion="0.3519669" vertical-offset="0" max-vertical-offset="483">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/view/ImageViewer.java">
@@ -902,11 +1000,6 @@
         <state line="12" column="23" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/journal/manager/BaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="32" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="3060" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/work/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="20" selection-start="770" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1037" />
@@ -915,11 +1008,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/view/ScaleImageView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="26" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.040963855" vertical-offset="833" max-vertical-offset="4216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/journal/manager/ImageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="10" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="5236" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/StartActivity.java">
@@ -938,37 +1026,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/journal/TitleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="54" selection-start="1834" selection-end="1847" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.19465649" vertical-offset="0" max-vertical-offset="524">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_start.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/journal/PagesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="4420">
+        <state line="35" column="54" selection-start="1445" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/journal/service/LoadService.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/header.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="16" selection-start="5347" selection-end="5347" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="3026">
-          <folding>
-            <element signature="e#5179#5214#0" expanded="true" />
-            <element signature="e#5233#5266#0" expanded="true" />
-          </folding>
+        <state line="4" column="33" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/journal/manager/ImageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="10" selection-start="3219" selection-end="3219" vertical-scroll-proportion="0.0" vertical-offset="4182" max-vertical-offset="5015">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -979,34 +1070,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_start.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="54" selection-start="1445" selection-end="1447" vertical-scroll-proportion="-7.38" vertical-offset="226" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/res/layout/item_assortiment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/item_assortiment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="37" selection-start="2264" selection-end="2271" vertical-scroll-proportion="-2.78" vertical-offset="762" max-vertical-offset="1343">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/header.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="196" selection-end="196" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/const.xml">
@@ -1016,10 +1087,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/journal/service/LoadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="30" selection-start="5486" selection-end="5486" vertical-scroll-proportion="0.0" vertical-offset="2306" max-vertical-offset="3026">
+          <folding>
+            <element signature="e#5179#5214#0" expanded="true" />
+            <element signature="e#5233#5266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/journal/manager/BaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="5" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/journal/PagesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="31" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0" vertical-offset="661" max-vertical-offset="4131">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/journal/TitleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1856" selection-end="1995" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/journal/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="0" selection-start="5298" selection-end="5298" vertical-scroll-proportion="0.33333334" vertical-offset="1963" max-vertical-offset="5321">
-          <folding />
+        <state line="254" column="97" selection-start="9622" selection-end="9622" vertical-scroll-proportion="0.72680414" vertical-offset="3526" max-vertical-offset="5491">
+          <folding>
+            <element signature="e#7000#8923#0" expanded="true" />
+            <element signature="e#8904#8905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

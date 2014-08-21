@@ -147,9 +147,12 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     @Override
     public void onItemClick(AdapterView<?> parent, View view, final int position, final long id) {
 
+        final int position2 = position-1;
         final BaseManager bm = BaseManager.getInstance();
         bm.open();
-        Cursor c = bm.getJournal(mArrItemJournal.get(position).id);
+        int ma = mArrItemJournal.get(position2).id;
+        Cursor c = bm.getJournal(ma);
+
         String status = "";
 
         while (c.moveToNext()) {
@@ -157,7 +160,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         }
 
         if (status.equals(BaseManager.STATUS_JOURNAL.NOT_LOADED) == true) {
-            final Cursor cat = bm.getLoded(mArrItemJournal.get(position).id);
+            final Cursor cat = bm.getLoded(mArrItemJournal.get(position2).id);
 
             final List<String> arrUriList = new ArrayList<String>();
             final List<String> arrUriTumb = new ArrayList<String>();
@@ -226,7 +229,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
                             final Message message = handler.obtainMessage(1, imaget);
                             handler.sendMessage(message);
 
-                            bm.updateStatus(mArrItemJournal.get(position).id);
+                            bm.updateStatus(mArrItemJournal.get(position2).id);
                         } else {
                             final Message message = handler.obtainMessage(1, "zopa");
                             handler.sendMessage(message);
@@ -244,9 +247,13 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
             }
             //     cat.close();
         } else if (status.equals(BaseManager.STATUS_JOURNAL.UPLOADED) == true) {
-//            Intent intent = new Intent(this, TitleActivity.class);
+          //  Intent intent = new Intent(this, TitleActivity.class);
             Intent intent = new Intent(this, PagesActivity.class);
-            //intent.putExtra(TitleActivity.ID, ((ItemJournal) mAdapter.getItem(position)).id);
+          //  Log.e("===>","id_j=="+((ItemJournal) mAdapter.getItem(position2)).id);
+
+            intent.putExtra(PagesActivity.PAGE, ""+1);
+            intent.putExtra(PagesActivity.ID, ""+((ItemJournal) mAdapter.getItem(position2)).id);
+
             startActivity(intent);
         }
 

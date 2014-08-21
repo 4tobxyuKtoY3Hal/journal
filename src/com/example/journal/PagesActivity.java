@@ -46,7 +46,7 @@ public class PagesActivity extends Activity implements AdapterView.OnItemSelecte
 
        // Integer[] resPages = new Integer[]{R.drawable.a1, R.drawable.a2, R.drawable.a3};
 
-
+        Log.e("===>","intent==="+getIntent().getStringExtra(ID));
         int id_j = Integer.parseInt(getIntent().getStringExtra(ID));
         mPage_j = Integer.parseInt(getIntent().getStringExtra(PAGE))-1;
 
